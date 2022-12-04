@@ -5,6 +5,9 @@ services:
     build:
       context: ./
       dockerfile: docker/node/Dockerfile
+    command: yarn start
+    ports:
+      - "3000:3000"
     tty: true
     volumes:
       - ./:/app:cached
