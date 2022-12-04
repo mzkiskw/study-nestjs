@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  node:
+    image: node:16
+    tty: true
