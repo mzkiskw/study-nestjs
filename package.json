@@ -1,0 +1,8 @@
+{
+  "name": "study-nestjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mzkiskw/study-nestjs.git",
+  "author": "mzkiskw",
+  "license": "MIT"
+}
