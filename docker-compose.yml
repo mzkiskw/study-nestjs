@@ -6,3 +6,5 @@ services:
       context: ./
       dockerfile: docker/node/Dockerfile
     tty: true
+    volumes:
+      - ./:/app:cached
